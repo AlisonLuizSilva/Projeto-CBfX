@@ -1,0 +1,23 @@
+.banner{
+    background-color: rgb(20, 23, 39);
+
+}
+
+.titulo_banner{
+    padding: 10px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    color: #c0a011;
+    font-size: 20px;
+
+}
+
+.conteudo_banner{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 16px;
+}

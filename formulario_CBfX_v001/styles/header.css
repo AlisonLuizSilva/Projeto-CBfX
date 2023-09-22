@@ -1,0 +1,29 @@
+.cabecalho{
+    background: #1d2c57;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.cabecalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-image: url("/imagens/Menu.svg");
+    background-repeat: no-repeat;                   
+    background-position: center;                    
+    display: inline-block;
+}
+
+
+.logo_ransom{
+    width: 30%;
+    margin: 10px 50px;
+
+}
+
+
+

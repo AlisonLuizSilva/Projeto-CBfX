@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport"   content="width=device-width", intial-scale="1.0">
+    <title>CBfX - Programa de Compartilhamento de Benefícios Flexíveis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <header class="cabecalho">
+        <spam>
+            <img src="/imagens/logo-ransom.png" class="logo_ransom" alt="Imagem Logo Ransom">
+        </spam>
+
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">Conceito</li>
+                <li class="lista-menu__item">Parceiros</li>
+                <li class="lista-menu__item">Contato</li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <div class="banner">
+            <h1 class="titulo_banner">Campanha Exclusiva CBfX: Proporcione aos seus colaboradores e familiares a oportunidade de economizar 
+                até 25% em todos os seguros.</h1>
+
+            <p class="conteudo_banner">O Compartilhamento de Benefícios Flexíveis é a solução ideal para oferecer ótimos benefícios aos seus colaboradores e familiares 
+                sem custo para sua empresa e sem sobrecarregar  o RH.
+                Além do benefício indireto que irá proporcionar aos seus colaboradores e familiares, 
+                poderá também ser beneficiado com o fator motivacional e redução de até 25% nos seguros da sua empresa.</p>
+        </div>
+
+        <section class="formulario">
+            <h1 class="titulo_formulario">Pesquisa para o Programa de Compartilhamento de Benefícios Flexíveis</h1>
+
+            <h2 class="importante"> Importante<br> O fato de responder a pesquisa e iniciar a sua aceitação em 
+                participar do programa NÃO OBRIGARÁ você ou seu familiar a fechar o seguro com a Ransom, será facultativo.</b></h2>
+        </section>
+
+        <form class="questionario">
+            <label for="nome"> Nome:
+                <input type="text" id="nome" placeholder="Nome Completo" required>
+            </label>
+
+            <label for="telefone">Telefone/Whatsapp:
+                <input type="number" id="telefone" placeholder="(xx) x.xxxx-xxxx" required>
+            </label>
+
+            <label for="email">E-mail:
+                <input type="email" id="email" placeholder="seuemail@seudominio.com" required>
+            </label>
+
+            <label for="veiculo" class="question"> 1)Tem seguro de automóvel ou moto? 
+                <p class="importante">Pode ser seu e/ou de seu familiar:</p>
+
+                <input type="radio" id="veiculoSim" name="veiculo"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
+                
+                <input type="radio" id="veiculoNao" name="veiculo"> NÃO POSSUO
+
+                    <label for="marca">Marca:
+                    <input type="text" id="marca">
+                    </label>
+
+                    <label for="Modelo">Modelo:
+                    <input type="text" id="Modelo">
+                    </label>
+
+                    <label for="ano">Ano:
+                    <input type="text" id="ano">
+                    </label>
+
+                    <label for="Seguradora">Seguradora:
+                    <input type="text" id="Seguradora">
+                    </label>
+
+                    <label for="data">Data:
+                    <input type="date" id="data">
+                    </label>
+
+                    <label for="veiculo2">Utilize o campo abaixo caso possua mais de um veículo na família:<br>
+                    <input type="textarea" id="veiculo2" name="comentario" placeholder="Marca/Modelo/Ano Seguradora/Vencimento" rows="40" cols="20">
+                    </label>
+
+
+
+                
+
+            </label>
+
+        </form>
+          
+        
+
+
+
+    </body>

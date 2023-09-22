@@ -1,0 +1,28 @@
+@import url(styles/header.css);
+@import url(/styles/body.css);
+@import url(/styles/formulario.css);
+
+:root{
+    --cor-de-fundo: rgba(163, 169, 194, 0.966);
+    --cor-de-fonte: rgb(21, 27, 114);
+    --fonte-principal:"roboto";
+}
+
+
+body{
+    font-family: var(--fonte-principal);
+    color: var(--cor-de-fonte);
+}
+
+h1{
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p{
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
