@@ -81,19 +81,88 @@
                     <input type="text" id="Seguradora">
                     </label>
 
-                    <label for="data">Data:
+                    <label for="vencimento">Vencimento:
                     <input type="date" id="data">
                     </label>
 
                     <label for="veiculo2">Utilize o campo abaixo caso possua mais de um veículo na família:<br>
                     <input type="textarea" id="veiculo2" name="comentario" placeholder="Marca/Modelo/Ano Seguradora/Vencimento" rows="40" cols="20">
                     </label>
-
-
-
-                
-
             </label>
+
+
+            <label for="residencia" class="question"> 2)Tem seguro Residencial? 
+
+                <input type="radio" id="residenciaSim" name="residencia"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
+                
+                <input type="radio" id="residenciaNao" name="residencia"> NÃO POSSUO
+
+                <label for="Seguradora">Seguradora:
+                    <input type="text" id="Seguradora">
+                    </label>
+
+                    <label for="vencimento">Vencimento:
+                    <input type="date" id="vencimento">
+                    </label>
+            </label>
+
+            <label for="saude" class="question"> 3)Possui plano de Saúde e/ou Odontológico? 
+
+                <input type="radio" id="saudeSim" name="saude"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
+                
+                <input type="radio" id="saudeNao" name="saude"> NÃO POSSUO
+
+                <label for="Seguradora">Seguradora/Operadora:
+                    <input type="text" id="Seguradora">
+                    </label>
+
+                    <label for="vencimento">Aniversário da apólice:
+                    <input type="date" id="vencimento">
+                </label>
+            </label>
+
+
+            <label for="vida" class="question"> 4)Possui Seguro de Vida? 
+
+                <input type="radio" id="vidaSim" name="vida"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
+                
+                <input type="radio" id="vidaNao" name="vida"> NÃO POSSUO
+
+                <label for="Seguradora">Seguradora:
+                    <input type="text" id="Seguradora">
+                    </label>
+                </label>
+            </label>
+
+            <label for="outro" class="outroseguro">5) Tem algum seguro que você ou seu familiar gostaria de receber cotação?
+                <input type="radio" id="outroSim" name="outro">Sim: <input type="text" id="outro" placeholder="Qual seguro?">
+
+                <input type="radio" id="outroNao" name="outro">Não
+            </label>
+
+            <label for="preferenciaContato" class="preferencia">Preferência de contato:
+
+                <input type="radio" id="radioWhatsapp" name="preferenciacontato" checked> WhatsApp
+
+                <input type="radio" id="radiotelefone" name="preferenciacontato"> Telefone
+
+                <input type="radio" id="radioemail" name="preferenciacontato"> E-mail
+
+
+                <input type="submit" value="Enviar informações!">
+
+                <p class="contatoRodape"></p>
+
+
+
+            </label>          
+
+
+
+
+
+
+
 
         </form>
           
