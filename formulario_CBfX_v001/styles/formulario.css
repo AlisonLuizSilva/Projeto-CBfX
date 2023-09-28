@@ -1,3 +1,10 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
 .titulo_formulario{
     text-align: center;
     padding: 10px 0;
@@ -10,23 +17,21 @@
     margin: 0 0 0 10px;
 }
 
-.questionario{
-    margin: 10px 12px;
-    width: 90%;
-    display: block;
+        label{
+            margin: 0.5em 0;
+            display: block;
+        }
 
+        input{
+            display: block;
+        }
 
-}
+        input[type="radio"]{
+            display: inline;
 
-.questionario label{
-    display: block;
-    padding: 0.2em;
-}
-
+        }
 
     #veiculo2{
         width: 300px;
         height: 100px;
     }
-
-    

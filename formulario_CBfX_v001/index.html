@@ -38,109 +38,108 @@
                 poderá também ser beneficiado com o fator motivacional e redução de até 25% nos seguros da sua empresa.</p>
         </div>
 
-        <section class="formulario">
-            <h1 class="titulo_formulario">Pesquisa para o Programa de Compartilhamento de Benefícios Flexíveis</h1>
 
-            <h2 class="importante"> Importante<br> O fato de responder a pesquisa e iniciar a sua aceitação em 
-                participar do programa NÃO OBRIGARÁ você ou seu familiar a fechar o seguro com a Ransom, será facultativo.</b></h2>
-        </section>
+        <h1 class="titulo_formulario">Pesquisa para o Programa de Compartilhamento de Benefícios Flexíveis</h1>
 
-        <form class="questionario">
-            <label for="nome"> Nome:
+        <h2 class="importante"> Importante<br> O fato de responder a pesquisa e iniciar a sua aceitação em 
+            participar do programa NÃO OBRIGARÁ você ou seu familiar a fechar o seguro com a Ransom, será facultativo.</b></h2>
+
+        <form class="formulario">
+            <label for="nome" class="questionario"> Nome:
                 <input type="text" id="nome" placeholder="Nome Completo" required>
             </label>
 
-            <label for="telefone">Telefone/Whatsapp:
+            <label for="telefone" class="questionario">Telefone/Whatsapp:
                 <input type="number" id="telefone" placeholder="(xx) x.xxxx-xxxx" required>
             </label>
 
-            <label for="email">E-mail:
+            <label for="email" class="questionario">E-mail:
                 <input type="email" id="email" placeholder="seuemail@seudominio.com" required>
             </label>
 
-            <label for="veiculo" class="question"> 1)Tem seguro de automóvel ou moto? 
+            <label for="veiculo" class="questionarioradio"> 1)Tem seguro de automóvel ou moto? 
                 <p class="importante">Pode ser seu e/ou de seu familiar:</p>
 
                 <input type="radio" id="veiculoSim" name="veiculo"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
                 
                 <input type="radio" id="veiculoNao" name="veiculo"> NÃO POSSUO
 
-                    <label for="marca">Marca:
+                    <label for="marca" class="questionario">Marca:
                     <input type="text" id="marca">
                     </label>
 
-                    <label for="Modelo">Modelo:
+                    <label for="Modelo" class="questionario">Modelo:
                     <input type="text" id="Modelo">
                     </label>
 
-                    <label for="ano">Ano:
+                    <label for="ano" class="questionario">Ano:
                     <input type="text" id="ano">
                     </label>
 
-                    <label for="Seguradora">Seguradora:
+                    <label for="Seguradora" class="questionario">Seguradora:
                     <input type="text" id="Seguradora">
                     </label>
 
-                    <label for="vencimento">Vencimento:
+                    <label for="vencimento" class="questionario">Vencimento:
                     <input type="date" id="data">
                     </label>
 
-                    <label for="veiculo2">Utilize o campo abaixo caso possua mais de um veículo na família:<br>
+                    <label for="veiculo2" class="questionario">Utilize o campo abaixo caso possua mais de um veículo na família:<br>
                     <input type="textarea" id="veiculo2" name="comentario" placeholder="Marca/Modelo/Ano Seguradora/Vencimento" rows="40" cols="20">
                     </label>
             </label>
 
 
-            <label for="residencia" class="question"> 2)Tem seguro Residencial? 
+            <label for="residencia" class="questionario"> 2)Tem seguro Residencial? 
 
                 <input type="radio" id="residenciaSim" name="residencia"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
                 
                 <input type="radio" id="residenciaNao" name="residencia"> NÃO POSSUO
 
-                <label for="Seguradora">Seguradora:
+                <label for="Seguradora" class="questionario">Seguradora:
                     <input type="text" id="Seguradora">
                     </label>
 
-                    <label for="vencimento">Vencimento:
+                    <label for="vencimento" class="questionario">Vencimento:
                     <input type="date" id="vencimento">
                     </label>
             </label>
 
-            <label for="saude" class="question"> 3)Possui plano de Saúde e/ou Odontológico? 
+            <label for="saude" class="questionario"> 3)Possui plano de Saúde e/ou Odontológico? 
 
                 <input type="radio" id="saudeSim" name="saude"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
                 
                 <input type="radio" id="saudeNao" name="saude"> NÃO POSSUO
 
-                <label for="Seguradora">Seguradora/Operadora:
+                <label for="Seguradora" class="questionario">Seguradora/Operadora:
                     <input type="text" id="Seguradora">
                     </label>
 
-                    <label for="vencimento">Aniversário da apólice:
+                    <label for="vencimento" class="questionario">Aniversário da apólice:
                     <input type="date" id="vencimento">
                 </label>
             </label>
 
 
-            <label for="vida" class="question"> 4)Possui Seguro de Vida? 
+            <label for="vida" class="questionario"> 4)Possui Seguro de Vida? 
 
                 <input type="radio" id="vidaSim" name="vida"> SIM, POSSUO <!--Adicionar recurso que quando ao clicar no sim, desaparecer o não e aparecer os detalhes do veículo-->
                 
                 <input type="radio" id="vidaNao" name="vida"> NÃO POSSUO
 
-                <label for="Seguradora">Seguradora:
+                <label for="Seguradora" class="questionario">Seguradora:
                     <input type="text" id="Seguradora">
                     </label>
                 </label>
             </label>
 
-            <label for="outro" class="outroseguro">5) Tem algum seguro que você ou seu familiar gostaria de receber cotação?
+            <label for="outro" class="questionario">5) Tem algum seguro que você ou seu familiar gostaria de receber cotação?
                 <input type="radio" id="outroSim" name="outro">Sim: <input type="text" id="outro" placeholder="Qual seguro?">
 
                 <input type="radio" id="outroNao" name="outro">Não
             </label>
 
-            <label for="preferenciaContato" class="preferencia">Preferência de contato:
+            <label for="preferenciaContato" class="questionario">Preferência de contato:
 
                 <input type="radio" id="radioWhatsapp" name="preferenciacontato" checked> WhatsApp
 
@@ -152,22 +151,9 @@
                 <input type="submit" value="Enviar informações!">
 
                 <p class="contatoRodape"></p>
-
-
-
-            </label>          
-
-
-
-
-
-
-
+            </label>  
 
         </form>
           
         
-
-
-
     </body>
